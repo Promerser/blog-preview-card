@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Figtree";
-    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf)format('truetype');
+    src: url(../2/assets/fonts/Figtree-VariableFont_wght.ttf)format('truetype');
     font-weight: 100 900;
     font-style: normal;
 }
 @font-face {
     font-family: "Figtree Italic";
-    src: url(../assets/fonts/Figtree-Italic-VariableFont_wght.ttf)format('truetype');
+    src: url(../2/assets/fonts/Figtree-Italic-VariableFont_wght.ttf)format('truetype');
     font-weight: 100 900;
     font-style: italic;
 }
@@ -25,6 +25,8 @@ body{
     width: 279px;
     padding: 24px;
     border-radius: 20px;
+    box-shadow: 8px 8px ,
+    inset 0 0 0 1px #6b6b6b;;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,6 +66,10 @@ body{
     font-weight: 800;
     line-height: 150%;
 }
+.text-3:hover{
+    color:#f4d04e;
+    cursor: pointer;
+}
 .text-4{
     color: #6b6b6b;
     font-size: 14px;
@@ -86,4 +92,21 @@ body{
 }
 .hug{
     margin: 0px;
+}
+@media screen and (min-width: 1440px){
+     .main{
+        width: 336px;
+     }
+     .text-1{
+        font-size: 14px;
+     }
+     .text-2{
+        font-size: 14px;
+     }
+     .text-3{
+        font-size: 24px;
+     }
+     .text-4{
+        font-size: 16px;
+     }
 }
